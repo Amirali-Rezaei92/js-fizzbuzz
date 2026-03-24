@@ -10,3 +10,18 @@
 //==========================================================================
 
 //Inizio del ciclo che va da 1 a 100
+
+for (let Numero = 1; Numero <= 100; Numero++) {
+
+    if (Numero % 3 === 0 && Numero % 5 === 0) {
+        console.log('FIZZBUZZ');}
+        else if (Numero % 5 === 0) {
+            console.log('BUZZ')
+        }
+        else if (Numero % 3 === 0) {
+            console.log('FIZZ')
+        }
+        else {
+            console.log(Numero)
+        }
+    }
